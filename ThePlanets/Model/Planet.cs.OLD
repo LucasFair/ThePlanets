@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ThePlanets.Model
+{
+	public class Planet
+	{
+		// Decimal is more expensive, double is cheaper.
+
+		public struct PlanetProperties
+		{
+			double plntMass;  // 1024 kg
+			float plntDiamtr;  // Kilometers
+			ushort plntDensity;  // kg/m^3
+			float plntGravity;  // m/s^2
+			short plntRotPeriod;  // Rotation Period per hour
+			ushort plntDayLen;  // Length of Day per hour
+			float plntSunDist;  // Distance from the Sun (106 km)
+			float plntOrbPeriod;  // Orbit Period in days
+			float plntOrbVelo;  // Orbit Velocity (km/s)
+			short plntMeanTemp;  // Temperature in Celcius
+			byte plntMoonNum;  // Numbers of moons
+			bool plntHasRing;  // Does the planet have a ring system?
+			public void PlanetCol()
+			{
+				PlanetProperties mercury;
+				mercury.plntMass = 0;
+				
+			}
+		}
+
+		public void Run()
+		{
+		
+			
+			List<string> myPlanets = new List<string>();
+			myPlanets.Add("Mercury");
+			myPlanets.Add("Earth");
+			myPlanets.Add("Mars");
+			myPlanets.Add("Jupiter");
+			myPlanets.Add("Saturn");
+			myPlanets.Add("Uranus");
+			myPlanets.Add("Neptune");
+			myPlanets.Add("Pluto");
+
+			foreach (string planet in myPlanets)
+			{
+				Console.WriteLine(planet);
+			}
+		}
+	}
+}

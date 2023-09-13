@@ -1,0 +1,7 @@
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\bin\Debug\ThePlanets.exe.config
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\bin\Debug\ThePlanets.exe
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\bin\Debug\ThePlanets.pdb
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\obj\Debug\ThePlanets.csproj.AssemblyReference.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\obj\Debug\ThePlanets.csproj.CoreCompileInputs.cache
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\obj\Debug\ThePlanets.exe
+C:\Users\Fair\Documents\Hovedforløb\H1\OOP\ThePlanets\obj\Debug\ThePlanets.pdb

@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ThePlanets.Model
+{
+	public class PlanetSimple
+	{
+		public void Run()
+		{
+			List<string> myPlanets = new List<string>();
+			myPlanets.Add("Mercury");
+			myPlanets.Add("Earth");
+			myPlanets.Add("Mars");
+			myPlanets.Add("Jupiter");
+			myPlanets.Add("Saturn");
+			myPlanets.Add("Uranus");
+			myPlanets.Add("Neptune");
+			myPlanets.Add("Pluto");
+			
+            myPlanets.Insert(1, "Venus");
+
+
+			myPlanets.Remove("Pluto");
+			
+
+
+			myPlanets.Add("Pluto");
+			
+			foreach (string planet in myPlanets)
+			{
+				Console.WriteLine(planet);
+			}
+
+		}
+	}
+}

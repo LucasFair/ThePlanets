@@ -1,0 +1,45 @@
+		private double _plntMass;  // 1024 kg
+		private float _plntDiamtr;  // Kilometers
+		private ushort _plntDensity;  // kg/m^3
+		private float _plntGravity;  // m/s^2
+		private short _plntRotPeriod;  // Rotation Period per hour
+		private ushort _plntDayLen;  // Length of Day per hour
+		private float _plntSunDist;  // Distance from the Sun (106 km)
+		private float _plntOrbPeriod;  // Orbit Period in days
+		private float _plntOrbVelo;  // Orbit Velocity (km/s)
+		private short _plntMeanTemp;  // Temperature in Celcius
+		private byte _plntMoonNum;  // Numbers of moons
+		private bool _plntHasRing;  // Does the planet have a ring system?
+
+
+		double plntMass;  // 1024 kg
+		float plntDiamtr;  // Kilometers
+		ushort plntDensity;  // kg/m^3
+		float plntGravity;  // m/s^2
+		short plntRotPeriod;  // Rotation Period per hour
+		ushort plntDayLen;  // Length of Day per hour
+		float plntSunDist;  // Distance from the Sun (106 km)
+		float plntOrbPeriod;  // Orbit Period in days
+		float plntOrbVelo;  // Orbit Velocity (km/s)
+		short plntMeanTemp;  // Temperature in Celcius
+		byte plntMoonNum;  // Numbers of moons
+		bool plntHasRing;  // Does the planet have a ring system?
+
+			public PlanetProperties(double plntMass, float plntDiamtr, ushort plntDensity,
+			float plntGravity, short plntRotPeriod, ushort plntDayLen, float plntSunDist,
+			float plntOrbPeriod, float plntOrbVelo, short plntMeanTemp,
+			byte plntMoonNum, bool plntHasRing)
+
+
+_plntMass
+_plntDiamtr
+_plntDensity
+_plntGravity
+_plntRotPeriod
+_plntDayLen
+_plntSunDist
+_plntOrbPeriod
+_plntOrbVelo
+_plntMeanTemp
+_plntMoonNum
+_plntHasRing
